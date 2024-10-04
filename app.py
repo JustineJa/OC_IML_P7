@@ -19,9 +19,10 @@ st.image(image_ban, caption='Bienvenue', use_column_width=True)
 # Interface Streamlit
 st.title("Classification d'images")
 st.header("Contexte")
-st.write("Il s'agit ici de blablabla")
+st.write("L'univers du Machine Learning évolue rapidement.")
+st.write("Nous allons ici réaliser une veille technologique pour identifier un algorithme qui pourrait s'avérer plus performant que le réseau de neurone Resnet que nous avons étudié au projet 6.")
 
-st.header("Les ressources :")
+st.header("Nos ressources :")
 st.write("Pour nos travaux nous nous basons sur le dataset fourni par l'université de Standford.")
 st.write("Vous trouverez ci dessous la répartition des images par race dans ce dataset :")
 df_races = pd.read_csv('races.csv')
@@ -30,9 +31,9 @@ fig_races = px.bar(df_races, x="index", y="num_pictures", title="Répartition de
 # Afficher le graphique dans Streamlit
 st.plotly_chart(fig_races)
 
-st.header("Les résultats :")
-st.write("Dans le cadre de notre étude nous avons souhaité tester la performance de l'algorithme ConvNeXt par rapport à ResNet.")
-st.write("Nous avons réalisé nos tests pour différentes cardinalités (entre 5 et 30) de classes :")
+st.header("Nos résultats :")
+st.write("Dans le cadre de notre étude nous avons souhaité tester la performance de l'algorithme ConvNeXtTiny par rapport à ResNet50.")
+st.write("Nous avons réalisé nos tests pour différentes cardinalités (entre 5 et 40) de classes :")
 df_results = pd.read_csv('results_vf.csv')
 # Créer un graphique interactif avec Plotly
 fig_results = px.line(df_results, x="Nb_races", y="Accuracy",color = "Model", title="Accuracy par algorithme")
