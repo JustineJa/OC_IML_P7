@@ -12,12 +12,13 @@ L'objectif est d'implémenter cette méthode et de tester ses performances sur d
 sa robustesse à l'augmentation du nombre de classes.
 
 Nous travaillons avec la biblitothèque Keras, pour le modèle de base Resnet50, et également pour le modèle à tester : ConvNeXtTiny.
+
 **Ressources** :
 * [Repo ConvNeXt](https://github.com/facebookresearch/ConvNeXt)
 * [Bibliothèque Keras](https://keras.io/api/applications/convnext/)
 
 **Données**:
-* [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/): Dataset issu d'ImageNt comportant 20 580 images réparties en 120 classes de chiens.
+* [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/): Dataset issu d'ImageNet comportant 20 580 images réparties en 120 classes de chiens.
 
 **Livrables**:
 * [Plan de travail prévisionnel](Plan_prévisionnel.docx): plan de travail prévisionnel
@@ -26,6 +27,4 @@ Nous travaillons avec la biblitothèque Keras, pour le modèle de base Resnet50,
 * [Note méthodologique](Note_Méthodologique.docx): note méthodologique présentant la preuve de concept
 * [code du dashboard](app.py): app.py à déployer dans streamlit
 * [application cloud](https://ocimlp7-jj.streamlit.app/): lien vers streamlit
-* [support de présentation](xxx): présentation ppt
-
-
+* [support de présentation](IML_P7_JJ_V1.pdf): présentation ppt
