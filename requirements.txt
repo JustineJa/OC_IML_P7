@@ -147,7 +147,7 @@ waitress==3.0.0
 watchdog==4.0.2
 wcwidth==0.2.13
 webencodings==0.5.1
-Werkzeug==3.0.4
+Werkzeug==3.0.6
 wheel==0.44.0
 wrapt==1.16.0
 yarg==0.1.9
